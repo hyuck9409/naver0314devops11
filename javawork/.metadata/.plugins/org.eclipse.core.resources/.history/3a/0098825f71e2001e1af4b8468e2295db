@@ -1,0 +1,15 @@
+package day0315;
+
+public class Ex2_DataType {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        //정수타입에 대하여 아라보자
+		byte a=127;
+		System.out.println(a);
+		
+		byte b=(byte) 200; //(byte) : cast연산자 : 강제로 형 변환, 값손실이 발생함
+		System.out.println(b);
+	}
+
+}
