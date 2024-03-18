@@ -24,7 +24,7 @@ public class Ex13_ForMunje {
 		x=sc.nextInt();
 		y=sc.nextInt();
 		
-		for(int i=1;i<=y;i++)
+		for(int i=1;1<=y;i++)
 		{
 			sum*=x;
 		}
