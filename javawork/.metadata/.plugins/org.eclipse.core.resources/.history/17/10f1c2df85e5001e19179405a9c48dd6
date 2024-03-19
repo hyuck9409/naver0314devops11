@@ -1,0 +1,28 @@
+package day0318;
+
+public class Ex14_ForMunje {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+		 *  5개의 점수(score)를 입력하면 갯수(count)와 합계(sum) 출력하기
+		 *  (단, 1~100 이 아닐경우는 갯수에서 제외하고 합계에서도 제외하기-continue 사용
+		 *  
+		 *  (예)
+		 *  
+		 *  점수는? 80 s1?
+		 *  점수는? 12 s2?
+		 *  점수는? 70 s3?
+		 *  점수는? 60 s4?
+		 *  점수는? 100 s5?
+		 *  
+		 *  입력한 점수 갯수 : 4
+		 *  총 합계 : 310
+		 */
+		for(int i=1;i<=100;i++)
+			if(i == 100)
+				continue;
+		System.out.println("몰루");
+	}
+
+}

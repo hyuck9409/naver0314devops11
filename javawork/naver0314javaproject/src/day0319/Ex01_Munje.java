@@ -1,0 +1,39 @@
+package day0319;
+
+public class Ex01_Munje {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+		 * 1-100 사이의 소수를 모두 출력하고 몇개인지 갯수를 구하라
+		 * 소수? 1을 제외하고 자기자신만을 약수로 가지고있는 수(다중for문)
+		 * 
+		 * 1 !=1
+		 * 2 !=2
+		 * 3 !=3
+		 * 4 !=4...10까지 출력
+		 * 
+		 * xy+yx=121 이 나오는 x,y 모두 구하기
+		 * 단, x y는 1-9 사이의 한자리 숫자임
+		 * 예)29+92=121
+		 * 
+		 *
+		 */
+		int count=0;
+		Loop:
+		for(int i=1;i<=100;i++)
+		{
+			for(int j=2;j<i;j++)
+			{
+				if(i%j==0)
+					continue Loop;//i++로 이동
+			}
+			count++;
+			System.out.printf("%3d",i);
+			if(count%5==0)
+				System.out.println();
+		}
+		System.out.println("소수의 갯수 :"+count);
+	}
+
+}
