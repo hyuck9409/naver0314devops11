@@ -1,0 +1,19 @@
+package day0320;
+
+public class Ex7_Array {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int []data= {94,3,10,64,71,6,19,50,33,47};
+		int max,min;
+		max=min=data[0];//무조건 첫데이터를 max또는 min 으로 지정
+		System.out.println(data.length);
+		
+		for(int i=1;i<data.length;i++)
+		{
+			if(max<data[i])max=data[i];
+		}
+		System.out.println("최대값:"+max);
+	}
+
+}

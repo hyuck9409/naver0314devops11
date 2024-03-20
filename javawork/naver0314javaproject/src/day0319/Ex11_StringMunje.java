@@ -26,24 +26,25 @@ public class Ex11_StringMunje {
 		System.out.println("문장을 입력하세요");
 		msg=sc.nextLine();
 		
-		for(int i=0;i<msg.length();i++);
+		for(int i=0;i<msg.length();i++)
 		{
-			
 			//i번지 인덱스의 문자 얻기
 			char ch=msg.charAt(i);
-		
+			
 			if(ch>='a' && ch<='z')
-			lowerAlpha++;
-		else if(ch>='A' && ch<='Z')
-			upperAlpha++;
-		else if(ch>='0' && ch<='9')
-			num++;
+				lowerAlpha++;
+			else if(ch>='A' && ch<='Z')
+				upperAlpha++;
+			else if(ch>='0' && ch<='9')
+				num++;
 		}
+		
 		System.out.println("소문자 : "+lowerAlpha);
 		System.out.println("대문자 : "+upperAlpha);
-		System.out.println("숫자 : "+num);
+		System.out.println("숫 자 : "+num);
+		
 	}
 
-	
-
 }
+
+	
