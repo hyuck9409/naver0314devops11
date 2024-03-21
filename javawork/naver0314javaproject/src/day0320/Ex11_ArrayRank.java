@@ -29,7 +29,7 @@ public class Ex11_ArrayRank {
 		System.out.println("=".repeat(20));
 		for(int i=0;i<score.length;i++)
 		{
-			System.out.println(i+"\t"+score[i]+"\t"+rank[i]);
+			System.out.println((i+1)+"\t"+score[i]+"\t"+rank[i]);
 		}
 		
 	}
