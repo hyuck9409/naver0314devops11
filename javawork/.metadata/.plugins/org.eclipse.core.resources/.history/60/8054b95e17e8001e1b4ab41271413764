@@ -1,0 +1,12 @@
+package day0322;
+
+public class sawon {
+	private String name;
+	private int gibon;
+	private int sudang;
+	
+	//setter method
+	
+	//getter method
+	
+}

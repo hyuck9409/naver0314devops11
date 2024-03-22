@@ -7,4 +7,5 @@
     <fullyQualifiedTypeName name="javax.sql.rowset.serial.SQLOutputImpl"/>
     <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.sql.SQLOutput"/>
 </qualifiedTypeNameHistroy>
