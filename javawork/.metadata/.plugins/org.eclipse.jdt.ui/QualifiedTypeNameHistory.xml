@@ -8,4 +8,6 @@
     <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="java.sql.SQLOutput"/>
+    <fullyQualifiedTypeName name="day0322.MyShop"/>
+    <fullyQualifiedTypeName name="day0322.sawon"/>
 </qualifiedTypeNameHistroy>

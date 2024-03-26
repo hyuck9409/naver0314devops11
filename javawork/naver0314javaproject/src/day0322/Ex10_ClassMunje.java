@@ -14,7 +14,7 @@ class Member
 	}
 	Member(String name)
 	{
-		this(name,"파리","2828-1818");
+		this(name," 010-2828-1818 "," 파리");
 		
 		
 	}

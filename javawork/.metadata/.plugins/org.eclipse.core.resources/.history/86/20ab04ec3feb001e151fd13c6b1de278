@@ -1,0 +1,24 @@
+package day0326;
+
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class Ex15_FileException {
+	static final String FILENAME="d:/naver0314/memo1.txt";
+	
+		static public void fileSave()
+		{
+			FileWriter fw=null;
+			try {
+				fw=new FileWriter(FILENAME);
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		fileSave();
+	}
+
+}

@@ -1,0 +1,72 @@
+package day0325;
+
+class Phone2
+{
+	public String model;
+	public String color;
+	
+	//메소드 선언
+	public void bell()
+	{
+		System.out.println("벨이 울립니다");
+	}
+	
+	public void receiveVoice(String message)
+	{
+		System.out.println("자기: "+message);
+	}
+	
+	public void hangUp()
+	{
+		System.out.println("전화를 끊습니다");
+	}
+
+	public String getModel() {
+		return model;
+	}
+
+	public void setModel(String model) {
+		this.model = model;
+	}
+
+	public String getColor() {
+		return color;
+	}
+
+	public void setColor(String color) {
+		this.color = color;
+	}	
+}
+
+class SmartPhone extends Phone2
+{//필드 선언
+public boolean wifi;
+
+//생성자 선언
+
+public SmartPhone(String model,String color)
+{
+this.model=model;
+this.color=color;
+}
+
+//메소드 선언
+public void setWifi(boolean wifi)
+{
+this.wifi=wifi;
+System.out.println("와이파이 상태를 변경했습니다"); 
+
+public void internet()
+{
+System.out.println("인터넷에 연결합니다"); 
+}
+}
+
+public class Ex8_Inheri {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
