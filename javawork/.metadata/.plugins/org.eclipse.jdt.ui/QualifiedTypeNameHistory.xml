@@ -10,4 +10,8 @@
     <fullyQualifiedTypeName name="java.sql.SQLOutput"/>
     <fullyQualifiedTypeName name="day0322.MyShop"/>
     <fullyQualifiedTypeName name="day0322.sawon"/>
+    <fullyQualifiedTypeName name="javax.sound.midi.Soundbank"/>
+    <fullyQualifiedTypeName name="day0326.Hello"/>
+    <fullyQualifiedTypeName name="day0326.Happy"/>
+    <fullyQualifiedTypeName name="java.io.FileWriter"/>
 </qualifiedTypeNameHistroy>
