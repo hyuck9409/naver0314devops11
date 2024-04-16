@@ -1,0 +1,12 @@
+package programmers;
+
+import java.util.Scanner;
+
+class Solution {
+    public int[] solution(int[] numbers) { 
+    	Scanner sc=new Scanner(System.in);
+    	int a,b,c,d,e;
+        int[] answer = {};
+        return answer;
+    }
+}

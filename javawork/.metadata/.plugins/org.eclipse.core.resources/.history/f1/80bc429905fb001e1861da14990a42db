@@ -1,0 +1,13 @@
+package programmers;
+
+import java.util.Scanner;
+
+class Solution {
+    public int[] solution(int[] numbers) { 
+    	
+    	
+    	
+        int[] answer = {};
+        return answer;
+    }
+}
