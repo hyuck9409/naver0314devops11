@@ -1,0 +1,14 @@
+package programmers;
+
+import java.util.Scanner;
+
+class Solution {
+    public String solution(int n) {
+       Scanner sc=new Scanner(System.in);
+       n=sc.nextInt();
+    	String answer = "n";
+        return answer;
+        
+    }
+    
+}

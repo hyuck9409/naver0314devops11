@@ -1,0 +1,15 @@
+package programmers;
+
+class Solution {
+    public int solution(String num_str) {
+       
+    	int answer = 123;
+        return sum(num_str);
+        
+    }
+
+	private int sum(String num_str) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+}
